@@ -17,9 +17,9 @@ def line2():
     print('ERR: Oh no you have an error sadge :(')
     return 'Error written to logs..'
 
-@app.route('/log')
+@app.route('/info')
 def line3():
-    print('Good log')
+    print('INFO: Good log')
     return 'Default written to logs..'
 
 if __name__ == '__main__':
