@@ -17,9 +17,10 @@ def line2():
     print('ERR: Oh no you have an error sadge :(')
     return 'Error written to logs..'
 
-@app.route('/info')
+@app.route('/count')
 def line3():
-    print('INFO: Good log')
+    for i in range(10):
+        print('INFO:', i)
     return 'Info written to logs..'
 
 if __name__ == '__main__':
