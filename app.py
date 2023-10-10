@@ -12,7 +12,7 @@ app = Flask(__name__)
 def hello():
     #logging.info('Request made to the root endpoint.')
     print('Request made to the root endpoint.')
-    return 'Hello World!! \n Available paths: /warn | /err | /count'
+    return 'Hello Preview Branch!! \n Available paths: /warn | /err | /count'
 
 @app.route('/warn')
 def line1():
